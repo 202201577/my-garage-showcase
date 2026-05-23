@@ -109,16 +109,16 @@ body{
 /* HERO CONTENT */
 
 .hero-content{
-    margin-top:110px;
+    margin-top:70px;
 }
 
 
 /* MAIN TITLE */
 
 .hero-content h1{
-    font-size:88px;
+    font-size:72px;
 
-    line-height:0.9;
+    line-height:0.95;
 
     font-weight:800;
 
@@ -139,7 +139,7 @@ body{
 
     margin-bottom:45px;
 
-    max-width:650px;
+    max-width:500px;
 
     font-weight:600;
 }

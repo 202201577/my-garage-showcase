@@ -109,14 +109,14 @@ body{
 /* HERO CONTENT */
 
 .hero-content{
-    margin-top:170px;
+    margin-top:110px;
 }
 
 
 /* MAIN TITLE */
 
 .hero-content h1{
-    font-size:110px;
+    font-size:88px;
 
     line-height:0.9;
 
@@ -131,7 +131,7 @@ body{
 /* SUB TITLE */
 
 .hero-content h2{
-    font-size:38px;
+    font-size:26px;
 
     color:#fbbf24;
 
@@ -193,16 +193,16 @@ body{
     }
 
     .uob-info h3{
-        font-size:22px;
-    }
+    font-size:22px;
+}
 
-    .uob-info p{
-        font-size:15px;
-    }
+.uob-info p{
+    font-size:15px;
+}
 
-    .uob-info span{
-        font-size:14px;
-    }
+.uob-info span{
+    font-size:14px;
+}
 
     .hero-content{
         margin-top:120px;

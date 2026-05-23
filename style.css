@@ -136,3 +136,48 @@ video{
   color:white;
   font-size:60px;
 }
+
+.navbar{
+    position:absolute;
+    top:20px;
+    left:0;
+    width:100%;
+    padding:0 8%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    z-index:100;
+}
+
+.menu-icon{
+    font-size:40px;
+    color:white;
+    cursor:pointer;
+}
+
+.uob-info{
+    text-align:center;
+    color:white;
+}
+
+.uob-info h3{
+    color:#fbbf24;
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+.uob-info p{
+    font-size:18px;
+    color:#dbeafe;
+}
+
+.uob-info span{
+    font-size:16px;
+    color:#94a3b8;
+}
+
+.logo{
+    width:80px;
+    height:80px;
+    object-fit:contain;
+}

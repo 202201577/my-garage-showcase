@@ -111,20 +111,34 @@ body{
 
 .btn{
     display:inline-block;
-    padding:18px 50px;
+
+    padding:22px 70px;
+
     background:#ef4444;
+
     color:white;
+
     text-decoration:none;
-    border-radius:50px;
+
+    border-radius:60px;
+
     font-size:24px;
-    font-weight:bold;
-    box-shadow:0 0 25px rgba(239,68,68,.6);
+
+    font-weight:700;
+
+    box-shadow:0 0 35px rgba(239,68,68,.55);
+
     transition:.3s;
+
+    margin-top:10px;
 }
 
 .btn:hover{
     transform:scale(1.05);
+
     background:#dc2626;
+
+    box-shadow:0 0 45px rgba(239,68,68,.75);
 }
 
 @media(max-width:768px){
@@ -173,7 +187,12 @@ body{
     }
 
     .btn{
-        font-size:21px;
-        padding:17px 42px;
-    }
+    width:100%;
+
+    max-width:360px;
+
+    padding:22px 20px;
+
+    font-size:22px;
+}
 }

@@ -94,6 +94,21 @@ body{
     font-weight:600;
 }
 
+.small-text{
+    color:#d1d5db;
+    font-size:18px;
+    line-height:1.8;
+    max-width:650px;
+    margin:0 auto 45px;
+    text-align:center;
+}
+
+.small-text{
+    font-size:15px;
+    line-height:1.7;
+    margin-bottom:38px;
+}
+
 .btn{
     display:inline-block;
     padding:18px 50px;

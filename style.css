@@ -41,7 +41,7 @@ body{
 .uob-info{text-align:center;}
 .uob-info h3{color:#fbbf24;font-size:24px;margin-bottom:8px;}
 .uob-info p{color:#f1f5f9;font-size:16px;margin-bottom:6px;}
-.uob-info span{color:#cbd5e1;font-size:14px;}
+.uob-info span{color:#cbd5e1;font-size:16px;line-height:1.4;white-space:nowrap;}
 
 .hero-content{
     margin-top:125px;

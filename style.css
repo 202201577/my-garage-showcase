@@ -13,7 +13,10 @@ body{
 
 .hero{
     min-height:100vh;
-    background:linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.75)), url('garage.jpg');
+    background:
+    linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.75)),
+    url('garage.jpeg');
+
     background-size:cover;
     background-position:center;
     padding:145px 7% 80px;

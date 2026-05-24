@@ -16,7 +16,6 @@ body{
     background:
     linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.75)),
     url('garage.jpeg');
-
     background-size:cover;
     background-position:center;
     padding:145px 7% 80px;
@@ -41,7 +40,7 @@ body{
 .uob-info{text-align:center;}
 .uob-info h3{color:#fbbf24;font-size:24px;margin-bottom:8px;}
 .uob-info p{color:#f1f5f9;font-size:16px;margin-bottom:6px;}
-.uob-info span{color:#cbd5e1;font-size:16px;line-height:1.4;white-space:nowrap;}
+.uob-info span{color:#cbd5e1;font-size:15px;white-space:nowrap;}
 
 .hero-content{
     margin-top:125px;
@@ -86,27 +85,42 @@ body{
     box-shadow:0 0 35px rgba(239,68,68,.55);
 }
 
-/* باقي الأقسام */
+/* SECTIONS */
 
 section:not(.hero){
-    padding:85px 7%;
+    padding:90px 7%;
     background:#020817;
 }
 
 section h2{
     font-size:42px;
-    margin-bottom:30px;
+    margin-bottom:18px;
     color:#fbbf24;
     text-align:center;
 }
 
-.about p{
-    max-width:900px;
-    margin:auto;
+.section-subtitle{
+    color:#94a3b8;
     text-align:center;
     font-size:18px;
+    margin-bottom:35px;
+}
+
+.section-card{
+    background:#09142b;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:35px;
+    padding:45px 30px;
+    box-shadow:0 0 30px rgba(0,0,0,.25);
+    max-width:1000px;
+    margin:auto;
+}
+
+.section-card p{
+    font-size:20px;
     line-height:1.9;
-    color:#d1d5db;
+    color:#e2e8f0;
+    text-align:center;
 }
 
 .grid{
@@ -117,7 +131,7 @@ section h2{
 }
 
 .card{
-    background:#0f172a;
+    background:#09142b;
     border:1px solid rgba(255,255,255,.1);
     border-radius:24px;
     padding:32px 22px;
@@ -125,6 +139,7 @@ section h2{
     font-size:20px;
     font-weight:600;
     color:white;
+    box-shadow:0 0 20px rgba(0,0,0,.25);
 }
 
 .demo{text-align:center;}
@@ -137,12 +152,6 @@ video{
 }
 
 .team{text-align:center;}
-
-.team p{
-    font-size:22px;
-    margin:12px 0;
-    color:#dbeafe;
-}
 
 .footer{
     text-align:center;
@@ -164,4 +173,5 @@ video{
     .hero-content h2{font-size:22px;}
     .small-text{font-size:15px;}
     section h2{font-size:36px;}
+    .section-card p{font-size:18px;}
 }
